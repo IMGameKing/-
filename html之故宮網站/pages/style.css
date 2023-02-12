@@ -1,6 +1,25 @@
+/* 使用於第二個頁面 */
+
 h1 {
-  color: fuchsia;
+  color: rgba(183, 26, 183, 0.744);
 }
+
 h2 {
   color: pink;
 }
+
+h3 {
+  color: #ffffff;
+}
+
+a {
+  color: rgb(117, 0, 190);
+}
+
+/* 
+1 bit => 0 or 1 兩種
+2 bits => 00 , 01 , 10 , 11 四種
+3 bits => 000 , 001 , 010 , 011 , 100 , 101 , 110 , 111 八種
+n bits => 2^n種
+8 bits => 1byte
+ */

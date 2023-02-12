@@ -1,0 +1,25 @@
+/* 使用於表單1 */
+
+/* element selector */
+h2 {
+  color: blue;
+}
+
+/* id selector 一個文件裡面只有一個標籤可以擁有 */
+#first-paragraph {
+  color: rgb(100, 25, 200);
+}
+
+/* class selector 可以重覆利用可用於多個標籤 且一個標籤可以有多個類別 用空白鍵分開 */
+.red-text {
+  color: red;
+}
+
+.large-text {
+  font-size: 32px;
+}
+
+/* element selector and class selector並用 */
+p.medium-text {
+  font-size: 40px;
+}
