@@ -1,3 +1,4 @@
+/* 用於index */
 div.link1 a {
   color: red;
 }
@@ -10,6 +11,15 @@ div.link2 a {
   color: red;
 }
 
-input[type="email"] {
-  color: aqua;
+P::before {
+  content: ">>";
+  color: blue;
+}
+
+P::first-line {
+  font-size: 32px;
+}
+
+*::selection {
+  background-color: lightgreen;
 }
