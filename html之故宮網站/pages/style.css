@@ -23,3 +23,29 @@ a {
 n bits => 2^n種
 8 bits => 1byte
  */
+
+/* 
+cascading stylesheet:衝突 程式碼是由上而下讀取的，所以後面的顏色才會真正執行覆蓋之前的 
+Order Rule(順序規則)是指：
+當我們有相同specificity的選擇器時，後寫的選擇器樣式會覆寫前面寫的樣式。
+放在比較後面的<link> stylesheet會覆寫放在前面的<link> stylesheet。
+*/
+
+/* 
+根據W3C的標準，網頁瀏覽器的預設樣式被稱為user agent stylesheet，而網頁瀏覽器連結的stylesheet被稱為user stylesheet。
+Priority優先順序為：
+1. Inline Styling
+2. User Stylesheet(內部順序由Specificity決定)
+3. User Agent Stylesheet
+4. Inheritance 
+*/
+
+/* 
+CSS 選擇器有不同的specificities。 例如，選擇id 比選擇class 更specific，所以當一個標籤有兩個 具體程度不同的CSS 選擇器時，
+它會取更specific(具體) 的樣式並套用於標籤上面，而不考慮順序前後。
+1. id - specificity (1, 0, 0)
+2. class - specificity (0, 1, 0)
+3. tag - specificity (0, 0, 1)
+
+可以組合，例如用 h1+class就會變成011 
+*/
