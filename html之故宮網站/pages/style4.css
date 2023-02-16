@@ -38,7 +38,7 @@ pixel 像素 2.54cm 也可以用cm mm in 瀏覽器預設為16px
 
 .inner-box {
   width: 50%;
-  background-color: yellow;
+  background-color: darkblue;
   height: 50%;
 }
 /* 相對於樓上父元素50% */
@@ -49,6 +49,7 @@ h1 {
   line-height: 50px;
   font-family: "Courier New", Courier, monospace;
   font-weight: lighter;
+  background-color: rgb(200, 200, 200);
 }
 /* 
 h1靠中對齊 
