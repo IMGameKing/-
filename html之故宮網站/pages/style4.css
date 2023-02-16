@@ -1,6 +1,7 @@
 /* 用於index */
 div.link1 a {
   color: red;
+  text-decoration: none;
 }
 
 div.link2 a {
@@ -33,6 +34,7 @@ pixel 像素 2.54cm 也可以用cm mm in 瀏覽器預設為16px
   background-color: brown;
   height: 300px;
 }
+/* background-color transparent背景顏色空白 */
 
 .inner-box {
   width: 50%;
@@ -40,3 +42,23 @@ pixel 像素 2.54cm 也可以用cm mm in 瀏覽器預設為16px
   height: 50%;
 }
 /* 相對於樓上父元素50% */
+
+h1 {
+  text-align: center;
+  letter-spacing: 10px;
+  line-height: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+}
+/* 
+h1靠中對齊 
+字體距離
+行距
+如果瀏覽器找不到第一個字體就會找第二個然後第三個
+加粗或變細
+*/
+
+p {
+  text-indent: 2rem;
+}
+/* 首行內縮 */
