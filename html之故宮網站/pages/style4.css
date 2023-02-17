@@ -40,6 +40,7 @@ pixel 像素 2.54cm 也可以用cm mm in 瀏覽器預設為16px
   width: 50%;
   background-color: darkblue;
   height: 50%;
+  border-radius: 50%;
 }
 /* 相對於樓上父元素50% */
 
@@ -50,6 +51,10 @@ h1 {
   font-family: "Courier New", Courier, monospace;
   font-weight: lighter;
   background-color: rgb(200, 200, 200);
+  border: 4mm ridge rgba(211, 220, 50, 0.6);
+  border-radius: 30px;
+  padding: 1em;
+  margin: 1em;
 }
 /* 
 h1靠中對齊 
@@ -57,6 +62,11 @@ h1靠中對齊
 行距
 如果瀏覽器找不到第一個字體就會找第二個然後第三個
 加粗或變細
+背景顏色
+外框
+https://developer.mozilla.org/en-US/docs/Web/CSS/border
+https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+https://developer.mozilla.org/en-US/docs/Web/CSS/margin
 */
 
 p {
