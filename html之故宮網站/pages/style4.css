@@ -73,3 +73,10 @@ p {
   text-indent: 2rem;
 }
 /* 首行內縮 */
+
+.myClass {
+  display: inline-block;
+  background-color: red;
+  width: 500px;
+  height: 300px;
+}
