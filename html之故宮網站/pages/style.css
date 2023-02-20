@@ -107,3 +107,7 @@ scroll - 如有必要，內容將被剪裁以適合填充框。 瀏覽器顯示�
 若想要指設定特定方向的overflow屬性，可只選擇overflow-x或overflow-y。
 https://developer.mozilla.org/en-US/docs/Web/CSS/overflow 
 */
+
+#image1 {
+  width: 30rem;
+}
