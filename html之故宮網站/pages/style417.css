@@ -1,0 +1,41 @@
+div.containter {
+  width: 500px;
+  height: 2000px;
+  background-color: black;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: aqua;
+  position: sticky;
+  top: 10px;
+}
+/* 會一直到臨界點然後保持10px的距離跟隨 */
+
+.box2 {
+  background-color: rebeccapurple;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* 鎖死在這個位置 */
+
+.box3 {
+  background-color: yellow;
+  position: relative;
+  bottom: 50px;
+  z-index: 1;
+}
+/* 相對位置z-index越大越前面 */
+
+.box4 {
+  background-color: red;
+  position: fixed;
+  top: 300px;
+  left: 300px;
+}
+/* 永遠固定在這個位置跟著移動 */
