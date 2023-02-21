@@ -9,6 +9,11 @@ div.containter {
   height: 200px;
 }
 
+.small-box {
+  width: 100px;
+  height: 100px;
+}
+
 .box1 {
   background-color: aqua;
   position: sticky;
@@ -27,8 +32,7 @@ div.containter {
 .box3 {
   background-color: yellow;
   position: relative;
-  bottom: 50px;
-  z-index: 1;
+  z-index: 0;
 }
 /* 相對位置z-index越大越前面 */
 
@@ -39,3 +43,20 @@ div.containter {
   left: 300px;
 }
 /* 永遠固定在這個位置跟著移動 */
+
+.box5 {
+  background-color: coral;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: -1;
+}
+
+.box6 {
+  background-color: blue;
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  z-index: -5;
+}
+/* 同一層會產生堆疊環境，不同層就不會 */
