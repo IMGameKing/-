@@ -8,11 +8,10 @@ div.box {
   width: 100px;
   height: 100px;
   background-color: aqua;
-  transition: all 1s;
+  transition: all 2s;
 }
 
 div.box:hover {
-  transform: translate(125px, 125px);
-  transform: rotate(180deg);
-  scale: 0.5;
+  transform: translate(100px, 100px) rotate(120deg);
+  scale: 1.5;
 }
