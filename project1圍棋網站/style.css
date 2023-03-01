@@ -66,6 +66,10 @@ main {
   flex-wrap: wrap;
 }
 
+main.noFlex {
+  display: block;
+}
+
 main section {
   padding: 1rem;
 }
@@ -107,4 +111,20 @@ p {
 
 section.right ul {
   margin-left: 1rem;
+}
+
+.player {
+  margin: 2rem;
+  border: 4px solid burlywood;
+  padding: 0.5rem;
+}
+
+.player h4 {
+  font-size: 1.5rem;
+  color: rgb(0, 90, 91);
+}
+
+.player h5 {
+  font-size: 1.05rem;
+  color: rgb(6, 120, 120);
 }
