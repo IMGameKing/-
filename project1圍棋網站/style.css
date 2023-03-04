@@ -195,3 +195,10 @@ section.taiwan h3 {
 .taiwan ul {
   margin-left: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+  header nav ul {
+    flex-direction: column;
+  }
+}
+/* 可以將導覽列在600px以下轉換成直行，但我感覺沒有比較好，不會送到線上版本，如果可以用flexbox解決就不要用到media query */
