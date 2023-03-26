@@ -33,4 +33,39 @@ body nav ul li a {
 }
 body nav ul li a:hover {
   color: rgb(54, 212, 138);
+}
+body main section.main-area {
+  min-height: 70vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body main section.main-area div.info {
+  flex-basis: 450px;
+}
+body main section.main-area div.info h1 {
+  font-size: 3.5rem;
+}
+body main section.main-area div.info h2 {
+  font-size: 1rem;
+}
+body main section.main-area div.info a {
+  color: white;
+  background-color: rgb(54, 212, 138);
+  padding: 0.25rem 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+body main section.main-area div.info a:hover {
+  transform: scale(1.2);
+}
+body main section.main-area img {
+  flex-basis: 300px;
+  max-width: 40vh;
 }/*# sourceMappingURL=style.css.map */

@@ -36,4 +36,46 @@ body {
       }
     }
   }
+
+  main {
+    section.main-area {
+      min-height: 70vh;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      div.info {
+        // border: 2px solid black;
+        flex-basis: 450px;
+
+        h1 {
+          font-size: 3.5rem;
+        }
+        h2 {
+          font-size: 1rem;
+        }
+        a {
+          color: white;
+          background-color: rgb(54, 212, 138);
+          padding: 0.25rem 0.5rem;
+          font-size: 1.5rem;
+          border-radius: 20px;
+          display: inline-block;
+          margin-top: 2rem;
+          text-decoration: none;
+          transition: all 0.2s ease;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+      img {
+        flex-basis: 300px;
+        // border: 2px solid red;
+        max-width: 40vh;
+      }
+    }
+  }
 }
