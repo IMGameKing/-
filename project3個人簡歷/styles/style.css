@@ -76,9 +76,16 @@ body main section.about-me {
   flex-direction: column;
   align-items: center;
 }
-body main section.about-me div.desc {
-  border: 2px solid black;
+body main section.about-me div.desc h2 {
+  font-size: 2rem;
+  text-align: center;
 }
 body main section.about-me div.progress-area {
-  border: 2px solid red;
+  width: 69%;
+}
+body main section.about-me div.progress-area p {
+  margin: 0.5rem 0rem;
+}
+body main section.about-me div.progress-area .progress-bar-area {
+  margin-top: 2rem;
 }/*# sourceMappingURL=style.css.map */

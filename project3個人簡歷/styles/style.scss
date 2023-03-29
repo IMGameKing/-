@@ -86,11 +86,22 @@ body {
       align-items: center;
 
       div.desc {
-        border: 2px solid black;
+        // border: 2px solid black;
+        h2 {
+          font-size: 2rem;
+          text-align: center;
+        }
       }
 
       div.progress-area {
-        border: 2px solid red;
+        // border: 2px solid red;
+        width: 69%;
+        p {
+          margin: 0.5rem 0rem;
+        }
+        .progress-bar-area {
+          margin-top: 2rem;
+        }
       }
     }
   }
