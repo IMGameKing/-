@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -88,4 +93,66 @@ body main section.about-me div.progress-area p {
 }
 body main section.about-me div.progress-area .progress-bar-area {
   margin-top: 2rem;
+}
+body main section.resume {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+body main section.resume section.table {
+  flex: 5 1 500px;
+  padding: 2rem;
+}
+body main section.resume section.table table {
+  border-collapse: collapse;
+}
+body main section.resume section.table table tr {
+  border-bottom: 2px solid gray;
+  transition: all 0.2s ease;
+}
+body main section.resume section.table table tr:hover {
+  background-color: rgb(184, 255, 222);
+}
+body main section.resume section.table table tr td {
+  padding: 1rem;
+}
+body main section.resume section.picture {
+  flex: 1 1 500px;
+  position: relative;
+}
+body main section.resume section.picture img {
+  width: 30vw;
+}
+body main section.resume section.picture div.greenRect {
+  width: 30vw;
+  height: 50vw;
+  border: 10px solid rgb(231, 255, 200);
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  z-index: -1;
+}
+body main section.resume section.picture div.greenRect2 {
+  width: 50vw;
+  height: 40vw;
+  border: 10px solid rgb(231, 255, 200);
+  position: absolute;
+  top: 300px;
+  left: -300px;
+  z-index: -1;
+}
+body main section.resume section.picture div.greenRect3 {
+  width: 50vw;
+  height: 40vw;
+  border: 10px solid rgb(231, 255, 200);
+  position: absolute;
+  top: 0px;
+  left: -100px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 500px) {
+  body nav {
+    position: static;
+  }
 }/*# sourceMappingURL=style.css.map */
