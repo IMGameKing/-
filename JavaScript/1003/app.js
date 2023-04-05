@@ -1,4 +1,3 @@
-let x; // declare a variable
-x = 10; // variable assignment
+const pi = 3.1415926535;
 
-console.log(x); // 看x得值為多少
+console.log(pi);
