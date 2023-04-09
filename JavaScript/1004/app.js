@@ -8,13 +8,20 @@ let x = 100;
 let y = 50;
 let z = 3;
 
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
-console.log(x % y);
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+// console.log(x % y);
 
-let result = x % z;
-console.log(result);
+// let result = x % z;
+// console.log(result);
 
-console.log(z ** z);
+// console.log(z ** z);
+
+// x = x + 1 , x++ , x+=1
+// x+=2 , x-=2 , x/=2 , x*=2
+x++;
+x--;
+x /= 2;
+console.log(x);
